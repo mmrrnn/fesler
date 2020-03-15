@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+/* #A93E2F */
+* {
+    font-family: "Dosis";
+}
+
+nav {
+    padding: 0!important;
+    height: 6rem;
+}
+
+nav a {
+    font-size: 1.2rem;
+    color: black;
+}
+
+nav li {
+    padding: 1rem;
+}
+
+div#carousel-main img {
+    object-fit: cover;
+    height: 100vh!important;
+}
+
+.carousel-caption {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: rgba(169, 62, 47, 0.9);
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.display-4 {
+    font-size: 2.8rem;
+}
+
+.blockquote-footer {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+footer.main {
+    padding: 2rem;
+    color: white;
+    background-color: #282828;
+}
+
+footer strong {
+    font-size: 2rem;
+}
+
+/* contact */
+
+header.jumbo-header {
+    margin-top: 6rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(169, 62, 47);
+}
+
+header.jumbo-header h2 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+div.contact-info {
+    margin: 30px 0px;
+    float: left;
+    width: 100%;
+    color: #444!important;
+    font-size: 15px!important;
+    font-weight: 400;
+}
+
+.btn {
+    border-color: rgb(169, 62, 47)!important;
+    background-color: rgb(169, 62, 47)!important;
+}
+
+.btn:hover {
+    border-color: rgb(169, 62, 47)!important;
+    background-color: rgba(169, 62, 47, 0.9)!important;
+}
+
+@media (max-width: 992px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    div.carousel-caption {
+        display: block!important;
+    }
+}
