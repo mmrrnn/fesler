@@ -96,9 +96,3 @@ div.contact-info {
         display: block!important;
     }
 }
-
-@media (max-width: 720px) {
-    form {
-        margin-top: 10rem;
-    }
-}
